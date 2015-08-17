@@ -1,0 +1,121 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.toe.tictac.tictactoe.Juego"
+    android:background="@drawable/juego_xxhdpi"
+    >
+
+    <LinearLayout
+        android:id="@+id/table1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="110dp">
+
+
+
+<TableLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <TableRow>
+
+
+        <ImageButton
+            android:layout_width="87.67dp"
+            android:layout_height="87.67dp"
+            android:id="@+id/uno"
+            android:background="@android:color/transparent"/>
+
+        <ImageButton
+            android:layout_width="87.67dp"
+            android:layout_height="87.67dp"
+            android:id="@+id/dos"
+            android:layout_marginLeft="18dp"
+            android:layout_marginRight="18dp"
+            android:background="@android:color/transparent"/>
+
+        <ImageButton
+            android:layout_width="87.67dp"
+            android:layout_height="87.67dp"
+            android:id="@+id/tres"
+            android:background="@android:color/transparent"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="30dp">
+
+        <ImageButton
+            android:layout_width="87.67dp"
+            android:layout_height="87.67dp"
+            android:id="@+id/cuatro"
+            android:background="@android:color/transparent"/>
+
+        <ImageButton
+            android:layout_width="87.67dp"
+            android:layout_height="87.67dp"
+            android:id="@+id/cinco"
+            android:layout_marginLeft="18dp"
+            android:layout_marginRight="18dp"
+            android:background="@android:color/transparent"/>
+
+        <ImageButton
+            android:layout_width="87.67dp"
+            android:layout_height="87.67dp"
+            android:id="@+id/seis"
+            android:background="@android:color/transparent"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="35dp">
+
+        <ImageButton
+            android:layout_width="87.67dp"
+            android:layout_height="87.67dp"
+            android:id="@+id/siete"
+            android:background="@android:color/transparent"/>
+
+        <ImageButton
+            android:layout_width="87.67dp"
+            android:layout_height="87.67dp"
+            android:id="@+id/ocho"
+            android:layout_marginLeft="18dp"
+            android:layout_marginRight="18dp"
+            android:background="@android:color/transparent"/>
+
+        <ImageButton
+            android:layout_width="87.67dp"
+            android:layout_height="87.67dp"
+            android:id="@+id/nueve"
+            android:background="@android:color/transparent"/>
+    </TableRow>
+
+</TableLayout>
+
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/player"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_below="@+id/table1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/mensajeNuevo" />
+</RelativeLayout>
